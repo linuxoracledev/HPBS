@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-header">Add Property</div>
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit(formValue)" #formValue=ngForm>
+      <div class="form-group col-12">
+        <label for="pname">Property Name</label>
+        <input type="text" name="pname" class="form-control" ngModel />
+      </div>
+
+      <div class="form-group col-12">
+        <label for="ptype">Property Type</label>
+        <input type="text" name="ptype" class="form-control" ngModel />
+      </div>
+      <div class="form-group col-12">
+        <label for="price">Price</label>
+        <input type="text" name="price" class="form-control"  ngModel/>
+      </div>
+      <div class="button-group">
+        <button type="submit">Save</button>
+      </div>
+    </form>
+  </div>
+</div>

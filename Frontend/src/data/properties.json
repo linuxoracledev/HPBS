@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "selrent": 1,
+    "name": "Birla",
+    "type": "House",
+    "price": 2500,
+    "imageName": "birla.png"
+  },
+  {
+    "id": 2,
+    "selrent": 1,
+    "name": "Nikunjo",
+    "type": "House",
+    "price": 2500,
+    "imageName": "nikunja.png"
+  },
+  {
+    "id": 3,
+    "selrent": 1,
+    "name": "Dakhhina",
+    "type": "House",
+    "price": 2500,
+    "imageName": "dakhhina.png"
+  },
+  {
+    "id": 4,
+    "selrent": 1,
+    "name": "Purbachal",
+    "type": "Ranch House",
+    "price": 2500,
+    "imageName": ""
+  },
+  {
+    "id": 5,
+    "selrent": 1,
+    "name": "Amar Barhi",
+    "type": "House",
+    "price": 2500,
+    "imageName": "amarbarhi.png"
+  },
+  {
+    "id": 6,
+    "selrent": 2,
+    "name": "Krishok",
+    "type": "Ranch House",
+    "price": 500000,
+    "imageName": "krishok.png"
+  }
+]

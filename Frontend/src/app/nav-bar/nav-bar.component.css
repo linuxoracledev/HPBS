@@ -1,0 +1,17 @@
+.circular {
+    border: 1px solid #FFDB51;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+
+.circular a{
+    text-align: center;
+    vertical-align: middle;
+}
+.circular .navbar-brand{
+    margin: auto!important;
+    padding: 0!important;
+}

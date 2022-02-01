@@ -1,1 +1,28 @@
-<p>property-list works!</p>
+
+  <div *ngFor="let property of properties" class="shadow-lg col-sm-3 p-3 m-1">
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img *ngIf="property.imageName" src="assets/images/{{ property.imageName }}" class="card-img-top" alt="" />
+        <img *ngIf="!property.imageName" src="assets/images/house-default.png" class="card-img-top" alt="" />
+        <ul class="list-inline card-member_button animate text-center">
+          <li class="list-inline-item">
+            <button routerLink="/property-detail/{{property.id}}" class="btn btn-primary">
+              <i class="bi bi-three-dots"></i>
+            </button>
+          </li>
+  
+          <li class="list-inline-item">
+            <button class="btn btn-primary">
+              <i class="bi bi-person-rolodex"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="card-body p-2">
+        <h4 class="card-title">{{ property.name }}</h4>
+        <h5 class="card-subtitle mb-2 text-muted">{{ property.type }}</h5>
+        <h5 class="card-text">{{ property.price }}</h5>
+      </div>
+    </div>
+  </div>
